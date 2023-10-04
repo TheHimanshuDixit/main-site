@@ -1,4 +1,6 @@
 import React from 'react';
+import Animation from './Animation';
+
 
 const Mainpage = () => {
   return (
@@ -21,6 +23,14 @@ const Mainpage = () => {
       <div className="text-5xl font-[700] text-center justify-center mt-6">
         <h1>Google Developer Student Club</h1>
       </div>
+      <div className="text-3xl font-[#141718] mt-2">
+        <h2>Jaypee Institute Of Information Technology 62</h2>
+      </div>
+
+      <div className='pt-20 me-auto'>
+        <Animation />
+      </div>
+
       <div className="text-xl font-[#141718] mt-2">
         <h4>Jaypee Institute Of Information Technology 62</h4>
       </div>
